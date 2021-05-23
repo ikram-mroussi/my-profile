@@ -1,0 +1,98 @@
+body{
+  background-color: rgb(230 230 240);
+  color: rgb(0 60 40);
+  font-family: merriweather;
+ }
+h1{
+  color: rgb(25 25 25);
+  font-family: 'robot', sans-serif;
+  font-weight: 200;
+  font-weight: lighter;
+  width: :40px auto;
+ }
+h2{
+  color:rgb(0 40 40);
+  font-family: lato;
+  font-weight: 150;
+ }
+h3{
+  color:rgb(20 50 40);
+  font-family: lato;
+  font-weight: 100;
+ }
+a{
+  color:rgb(0 0 127);
+  font-weight:lighter;
+  font-family: merriweather;
+  font-size: 50
+ }
+a:hover{
+ color: rgb(100 149 237);
+ }
+#profilephoto{
+  width: 60px;
+  border-radius: 70px;
+  border-style: circle:
+ }
+.container{
+  background: rgb(230 230 210);
+  Border: 1px rgb(230 230 230) ;
+  width: 500px;
+  margin:40px auto;
+  box-shadow: 0.5px 10px 30px rgb(0 0 0.6);
+  border-radius:30px ;
+  padding:60px;
+  text-align: center;
+ }
+@media(max-width: 500px){
+  .container{
+    width: 300px;
+   }
+  .card-white{
+    width: 300px;
+   }
+ }
+.card-white{
+  background: rgb(230 230 210);
+  Border: 1px rgb(230 230 230) ;
+  margin: 40px auto;
+  box-shadow: 0.5px 10px 30px rgb(0 0 0.4);
+  border-radius:30px;
+  padding:60px;
+  width: 500px;
+  text-align: center;
+ }
+.img-circle{
+ border-radius: 50%;
+ }
+.btn-blue{
+  background-color:rgb(100 149 237);
+  color: white;
+  padding: 10px;
+  border-radius:30px;
+ }
+.list-inline{
+  list-style: none;
+  pading-left: 0px;
+ }
+.list-inline li{
+  display:inline;
+  padding: 10px;
+ }
+.list-inline i{
+  font-size: 30px;
+  color:rgb(100 149 237);
+ }
+.list-inline i:hover{
+  color:rgb(210 250 250);
+ }
+
+
+
+
+
+
+
+
+
+
